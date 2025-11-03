@@ -13,7 +13,28 @@ body {
     color: whitesmoke;
 }
 
+nav {
+    padding: 1rem;
+    background-color: #44b78b;
+    color: white;
+    font-size: 2.5rem;
+}
+
+main {
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+}
 
 h1, p {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    columns: #81dbb8;
+}
+
+a:hover{
+    opacity: .85;
 }
