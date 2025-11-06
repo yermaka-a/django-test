@@ -12,9 +12,10 @@
 
 <body>
     <nav>
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="{% url 'posts:list' %}">posts</a>
+        <a href="/">home</a> |
+        <a href="/about">about</a> |
+        <a href="{% url 'posts:list' %}">posts</a> |
+        <a href="{% url 'users:register' %}">users registration</a>
     </nav>
     <main>{% block content %} {% endblock %}</main>
 </body>
